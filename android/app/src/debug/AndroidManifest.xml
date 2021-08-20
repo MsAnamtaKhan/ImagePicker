@@ -1,0 +1,17 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.imagepicker">
+    <!-- Flutter needs it to communicate with the running application
+         to allow setting breakpoints, to provide hot reload, etc.
+    -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+     <application>
+      android:requestLegacyExternalStorage="true"
+      android:name="io.flutter.app.FlutterApplication"
+        android:label="xxxxxx"
+        android:icon="@mipmap/launcher_icon"
+    <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+            </application>
+</manifest>
